@@ -76,13 +76,41 @@ class Calculos {
 }
 
 
-var teste = Calculos()
-teste.verificador(arg: )
+class Herdeiro:Calculos{
+    
+}
+
+var x = Herdeiro()
+x.soma(n1:10,n2:20)
 
 
 
+//var teste = Calculos()
+//teste.verificador(arg: )
+//
+//
+//
+//
+//teste.soma(n1: 2, n2: 4)
+//teste.subtracao(n1: 10, n2: 5)
+//
+//
 
-teste.soma(n1: 2, n2: 4)
-teste.subtracao(n1: 10, n2: 5)
 
 
+class Darrow {
+    var nome = "eie"
+    let laboratorio = "Darrow Lab"
+}
+
+var y = Darrow()
+y.nome
+
+//print(y.nome) // antes de polimorfar
+
+//
+
+//y.nome = "uiu"
+//print(y.nome)
+
+y.laboratorio 
